@@ -1,4 +1,4 @@
-name: ManualBuild
+name: TID Always 00000 & Debug Menu
 
 on: workflow_dispatch
 
