@@ -13588,12 +13588,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GIRATINA] =
     {
-        .baseHP        = 10000,
-        .baseAttack    = 10000,
-        .baseDefense   = 10000,
-        .baseSpeed     = 10000,
-        .baseSpAttack  = 10000,
-        .baseSpDefense = 10000,
+        .baseHP        = 150,
+        .baseAttack    = 100,
+        .baseDefense   = 120,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 120,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_DRAGON,
         .catchRate = 3,
@@ -13605,7 +13605,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_WONDER_GUARD, ABILITY_NONE},
+        .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_TELEPATHY,
         #endif
